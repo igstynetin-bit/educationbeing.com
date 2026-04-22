@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="robots" content="index, follow">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="EducationBeing.com offers practical learning, study help, and career skills for students and professionals to grow and succeed easily.">
+<title>EducationBeing.com – Learn Skills & Build Your Future</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'Poppins',sans-serif;background:#f4f7fb;color:#333}
+header{background:linear-gradient(135deg,#4facfe,#00f2fe);color:#fff;padding:50px 20px;text-align:center}
+header h1{font-size:30px;margin-bottom:10px}
+header a{color:#fff;text-decoration:none;font-weight:600}
+nav{position:sticky;top:0;background:#fff;padding:15px;text-align:center;box-shadow:0 2px 10px rgba(0,0,0,0.1);z-index:1000}
+nav a{margin:0 15px;text-decoration:none;color:#333;font-weight:500}
+.container{max-width:1100px;margin:30px auto;padding:20px}
+.card{background:#fff;border-radius:12px;padding:25px;margin-bottom:20px;box-shadow:0 5px 20px rgba(0,0,0,0.08);transition:0.3s}
+.card:hover{transform:translateY(-5px)}
+h2{color:#2c3e50;margin-bottom:10px}
+p{margin-bottom:15px;line-height:1.7}
+ul{padding-left:20px}
+li{margin-bottom:8px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
+.footer{background:#2c3e50;color:#fff;text-align:center;padding:25px;margin-top:40px}
+.footer a{color:#00f2fe;text-decoration:none}
+.btn{display:inline-block;margin-top:10px;padding:10px 20px;background:#4facfe;color:#fff;border-radius:8px;text-decoration:none}
+form input, form textarea{width:100%;padding:10px;margin:10px 0;border-radius:8px;border:1px solid #ccc}
+form button{padding:10px 20px;background:#4facfe;color:#fff;border:none;border-radius:8px;cursor:pointer}
+@media(max-width:768px){header h1{font-size:22px}}
+</style>
+</head>
+<body>
+
+<header id="home">
+<h1><a href="https://educationbeing.co.in/" target="_blank">EducationBeing.com</a> – Learn Skills, Gain Knowledge, Build a Better Future</h1>
+<p>Your modern learning companion</p>
+<a href="https://educationbeing.co.in/" class="btn">Start Learning</a>
+</header>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#faq">FAQs</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+
+<div class="card" id="about">
+<h2>About EducationBeing</h2>
+<p>In today’s fast-moving world, learning is no longer limited to school or university. People are constantly looking for better ways to improve their knowledge, upgrade their skills, and build a successful future. This is where EducationBeing.com comes in as a helpful and modern learning platform.</p>
+<p>The main idea behind EducationBeing is simple: learning should be easy, practical, and useful in real life. It focuses on clear explanations and real understanding.</p>
+</div>
+
+<div class="card">
+<h2>A New Approach to Learning</h2>
+<p>Traditional education focuses too much on theory. EducationBeing changes this by focusing on practical knowledge that can be applied in real life.</p>
+</div>
+
+<div class="card">
+<h2>Why EducationBeing.com Was Created</h2>
+<ul>
+<li>Removing confusion in learning</li>
+<li>Providing simple explanations</li>
+<li>Saving time</li>
+<li>Offering practical guidance</li>
+</ul>
+</div>
+
+<div class="grid" id="skills">
+<div class="card">
+<h2>Academic Help</h2>
+<p>Improve understanding, memory, and exam preparation skills.</p>
+</div>
+<div class="card">
+<h2>Career Growth</h2>
+<p>Guidance for career planning and job preparation.</p>
+</div>
+<div class="card">
+<h2>Skill Development</h2>
+<p>Build communication, problem-solving, and critical thinking skills.</p>
+</div>
+</div>
+
+<div class="card">
+<h2>Flexible Learning</h2>
+<p>Learn anytime, anywhere at your own pace without pressure.</p>
+</div>
+
+<div class="card" id="faq">
+<h2>FAQs</h2>
+<p><strong>1. What is EducationBeing.com?</strong><br>It is an online learning platform for education and skills.</p>
+<p><strong>2. Who can use it?</strong><br>Students, professionals, and learners.</p>
+<p><strong>3. Is it useful for career growth?</strong><br>Yes, it helps in career planning.</p>
+<p><strong>4. What makes it different?</strong><br>Simple and practical learning.</p>
+<p><strong>5. Is it beginner-friendly?</strong><br>Yes, very easy to use.</p>
+</div>
+
+<div class="card" id="contact">
+<h2>Contact Us</h2>
+<form onsubmit="return submitForm()">
+<input type="text" placeholder="Your Name" required>
+<input type="email" placeholder="Your Email" required>
+<textarea rows="4" placeholder="Your Message" required></textarea>
+<button type="submit">Send Message</button>
+</form>
+<p id="msg" style="color:green;margin-top:10px"></p>
+</div>
+
+</div>
+
+<div class="footer">
+<p>© 2026 Visit <a href="https://educationbeing.co.in/" target="_blank">EducationBeing.com</a> for more learning resources.</p>
+</div>
+
+<script>
+function submitForm(){
+ document.getElementById('msg').innerText = 'Message sent successfully!';
+ return false;
+}
+</script>
+
+</body>
+</html>
